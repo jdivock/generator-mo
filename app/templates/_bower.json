@@ -1,0 +1,14 @@
+{
+  "name": "viewport",
+  "version": "1.5",
+  "dependencies": {
+    "text": "~2.0.6"
+  },
+  "devDependencies": {},
+  "main": "webapp/index.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}

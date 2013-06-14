@@ -1,0 +1,1133 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\nodejs\\node.exe',
+1 verbose cli   'c:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'link' ]
+2 info using npm@1.2.24
+3 info using node@v0.10.9
+4 verbose linkPkg c:\Users\jdivock\workspace\generator-mo
+5 verbose read json c:\Users\jdivock\workspace\generator-mo\package.json
+6 verbose link build target C:\Users\jdivock\AppData\Roaming\npm\node_modules\generator-mo
+7 verbose install where,what [ 'c:\\Users\\jdivock\\workspace\\generator-mo', [] ]
+8 verbose from cache c:\Users\jdivock\workspace\generator-mo\package.json
+9 verbose readDependencies using package.json deps
+10 verbose install where, deps [ 'c:\\Users\\jdivock\\workspace\\generator-mo',
+10 verbose install   [ 'yeoman-generator', 'mocha' ] ]
+11 verbose from cache c:\Users\jdivock\workspace\generator-mo\package.json
+12 info preinstall generator-mo@0.0.0
+13 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\package.json
+14 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\yeoman-generator\package.json
+15 verbose from cache c:\Users\jdivock\workspace\generator-mo\package.json
+16 verbose readDependencies using package.json deps
+17 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\package.json
+18 verbose from cache c:\Users\jdivock\workspace\generator-mo\node_modules\yeoman-generator\package.json
+19 verbose already installed skipping yeoman-generator@~0.12.0 c:\Users\jdivock\workspace\generator-mo
+20 verbose cache add [ 'mocha@~1.10.0', null ]
+21 verbose cache add name=undefined spec="mocha@~1.10.0" args=["mocha@~1.10.0",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'mocha@~1.10.0',
+22 verbose parsed url   path: 'mocha@~1.10.0',
+22 verbose parsed url   href: 'mocha@~1.10.0' }
+23 verbose cache add name="mocha" spec="~1.10.0" args=["mocha","~1.10.0"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '~1.10.0',
+24 verbose parsed url   path: '~1.10.0',
+24 verbose parsed url   href: '~1.10.0' }
+25 verbose addNamed [ 'mocha', '~1.10.0' ]
+26 verbose addNamed [ null, '>=1.10.0- <1.11.0-' ]
+27 silly lockFile 25d0d91f-mocha-1-10-0 mocha@~1.10.0
+28 verbose lock mocha@~1.10.0 C:\Users\jdivock\AppData\Roaming\npm-cache\25d0d91f-mocha-1-10-0.lock
+29 silly addNameRange { name: 'mocha', range: '>=1.10.0- <1.11.0-', hasData: false }
+30 verbose url raw mocha
+31 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+32 verbose url resolved https://registry.npmjs.org/mocha
+33 info trying registry request attempt 1 at 16:03:38
+34 verbose etag "BM36W4RIOEH0SD48H50FBPBI"
+35 http GET https://registry.npmjs.org/mocha
+36 http 304 https://registry.npmjs.org/mocha
+37 silly registry.get cb [ 304,
+37 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+37 silly registry.get     etag: '"BM36W4RIOEH0SD48H50FBPBI"',
+37 silly registry.get     date: 'Fri, 14 Jun 2013 20:03:38 GMT',
+37 silly registry.get     'content-length': '0' } ]
+38 verbose etag mocha from cache
+39 silly addNameRange number 2 { name: 'mocha', range: '>=1.10.0- <1.11.0-', hasData: true }
+40 silly addNameRange versions [ 'mocha',
+40 silly addNameRange   [ '0.0.1-alpha1',
+40 silly addNameRange     '0.0.1-alpha2',
+40 silly addNameRange     '0.0.1-alpha3',
+40 silly addNameRange     '0.0.1-alpha4',
+40 silly addNameRange     '0.0.1-alpha5',
+40 silly addNameRange     '0.0.1-alpha6',
+40 silly addNameRange     '0.0.1',
+40 silly addNameRange     '0.0.2',
+40 silly addNameRange     '0.0.3',
+40 silly addNameRange     '0.0.4',
+40 silly addNameRange     '0.0.5',
+40 silly addNameRange     '0.0.6',
+40 silly addNameRange     '0.0.7',
+40 silly addNameRange     '0.0.8',
+40 silly addNameRange     '0.1.0',
+40 silly addNameRange     '0.2.0',
+40 silly addNameRange     '0.3.0',
+40 silly addNameRange     '0.3.1',
+40 silly addNameRange     '0.3.2',
+40 silly addNameRange     '0.3.3',
+40 silly addNameRange     '0.3.4',
+40 silly addNameRange     '0.3.6',
+40 silly addNameRange     '0.4.0',
+40 silly addNameRange     '0.5.0',
+40 silly addNameRange     '0.6.0',
+40 silly addNameRange     '0.7.0',
+40 silly addNameRange     '0.7.1',
+40 silly addNameRange     '0.8.0',
+40 silly addNameRange     '0.8.1',
+40 silly addNameRange     '0.9.0',
+40 silly addNameRange     '0.10.0',
+40 silly addNameRange     '0.10.1',
+40 silly addNameRange     '0.10.2',
+40 silly addNameRange     '0.11.0',
+40 silly addNameRange     '0.12.0',
+40 silly addNameRange     '0.12.1',
+40 silly addNameRange     '0.13.0',
+40 silly addNameRange     '0.14.0',
+40 silly addNameRange     '0.14.1',
+40 silly addNameRange     '1.0.0',
+40 silly addNameRange     '1.0.1',
+40 silly addNameRange     '1.0.2',
+40 silly addNameRange     '1.0.3',
+40 silly addNameRange     '1.1.0',
+40 silly addNameRange     '1.2.0',
+40 silly addNameRange     '1.2.1',
+40 silly addNameRange     '1.2.2',
+40 silly addNameRange     '1.3.0',
+40 silly addNameRange     '1.3.1',
+40 silly addNameRange     '1.3.2',
+40 silly addNameRange     '1.4.0',
+40 silly addNameRange     '1.4.1',
+40 silly addNameRange     '1.4.2',
+40 silly addNameRange     '1.4.3',
+40 silly addNameRange     '1.5.0',
+40 silly addNameRange     '1.6.0',
+40 silly addNameRange     '1.7.0',
+40 silly addNameRange     '1.7.1',
+40 silly addNameRange     '1.7.2',
+40 silly addNameRange     '1.7.3',
+40 silly addNameRange     '1.7.4',
+40 silly addNameRange     '1.8.0',
+40 silly addNameRange     '1.8.1',
+40 silly addNameRange     '1.8.2',
+40 silly addNameRange     '1.9.0',
+40 silly addNameRange     '1.10.0',
+40 silly addNameRange     '1.11.0' ] ]
+41 verbose addNamed [ 'mocha', '1.10.0' ]
+42 verbose addNamed [ '1.10.0', '1.10.0' ]
+43 silly lockFile 8717953f-mocha-1-10-0 mocha@1.10.0
+44 verbose lock mocha@1.10.0 C:\Users\jdivock\AppData\Roaming\npm-cache\8717953f-mocha-1-10-0.lock
+45 verbose read json C:\Users\jdivock\AppData\Roaming\npm-cache\mocha\1.10.0\package\package.json
+46 silly lockFile 8717953f-mocha-1-10-0 mocha@1.10.0
+47 silly lockFile 8717953f-mocha-1-10-0 mocha@1.10.0
+48 silly lockFile 25d0d91f-mocha-1-10-0 mocha@~1.10.0
+49 silly lockFile 25d0d91f-mocha-1-10-0 mocha@~1.10.0
+50 silly resolved [ { name: 'mocha',
+50 silly resolved     version: '1.10.0',
+50 silly resolved     description: 'simple, flexible, fun test framework',
+50 silly resolved     keywords: [ 'mocha', 'test', 'bdd', 'tdd', 'tap' ],
+50 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+50 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/mocha.git' },
+50 silly resolved     main: './index',
+50 silly resolved     bin: { mocha: './bin/mocha', _mocha: './bin/_mocha' },
+50 silly resolved     engines: { node: '>= 0.4.x' },
+50 silly resolved     scripts: { test: 'make test-all' },
+50 silly resolved     dependencies:
+50 silly resolved      { commander: '0.6.1',
+50 silly resolved        growl: '1.7.x',
+50 silly resolved        jade: '0.26.3',
+50 silly resolved        diff: '1.0.2',
+50 silly resolved        debug: '*',
+50 silly resolved        mkdirp: '0.3.3',
+50 silly resolved        ms: '0.3.0',
+50 silly resolved        glob: '3.2.1' },
+50 silly resolved     devDependencies: { should: '*', 'coffee-script': '1.2' },
+50 silly resolved     readme: ' [![Build Status](https://secure.travis-ci.org/visionmedia/mocha.png)](http://travis-ci.org/visionmedia/mocha)\n\n  [![Mocha test framework](http://f.cl.ly/items/3l1k0n2A1U3M1I1L210p/Screen%20Shot%202012-02-24%20at%202.21.43%20PM.png)](http://visionmedia.github.com/mocha)\n\n  Mocha is a simple, flexible, fun JavaScript test framework for node.js and the browser. For more information view the [documentation](http://visionmedia.github.com/mocha).\n\n## Contributors\n\n```\n\n project  : mocha\n repo age : 1 year, 7 months\n active   : 272 days\n commits  : 1116\n files    : 123\n authors  :\n   504  TJ Holowaychuk          45.2%\n   389  Tj Holowaychuk          34.9%\n    31  Guillermo Rauch         2.8%\n    13  Attila Domokos          1.2%\n     9  John Firebaugh          0.8%\n     8  Jo Liss                 0.7%\n     7  Nathan Rajlich          0.6%\n     6  James Carr              0.5%\n     6  Brendan Nee             0.5%\n     5  Aaron Heckmann          0.4%\n     4  hokaccha                0.4%\n     4  Xavier Antoviaque       0.4%\n     4  Joshua Krall            0.4%\n     3  Wil Moore III           0.3%\n     3  Jesse Dailey            0.3%\n     3  Nathan Bowser           0.3%\n     3  Tyson Tate              0.3%\n     3  Cory Thomas             0.3%\n     3  Ryunosuke SATO          0.3%\n     3  Paul Miller             0.3%\n     3  Ben Lindsey             0.3%\n     2  Forbes Lindesay         0.2%\n     2  Konstantin Käfer        0.2%\n     2  Brian Beck              0.2%\n     2  Merrick Christensen     0.2%\n     2  Michael Riley           0.2%\n     2  David Henderson         0.2%\n     2  Nathan Alderson         0.2%\n     2  Paul Armstrong          0.2%\n     2  Pete Hawkins            0.2%\n     2  Quang Van               0.2%\n     2  Raynos                  0.2%\n     2  Jonas Westerlund        0.2%\n     2  Domenic Denicola        0.2%\n     2  Shawn Krisman           0.2%\n     2  Simon Gaeremynck        0.2%\n     2  FARKAS Máté             0.2%\n     2  Timo Tijhof             0.2%\n     2  Justin DuJardin         0.2%\n     2  Juzer Ali               0.2%\n     2  Ian Storm Taylor        0.2%\n     2  Arian Stolwijk          0.2%\n     2  domenic                 0.2%\n     1  Richard Dingwall        0.1%\n     1  Russ Bradberry          0.1%\n     1  Sasha Koss              0.1%\n     1  Seiya Konno             0.1%\n     1  Standa Opichal          0.1%\n     1  Steve Mason             0.1%\n     1  Will Langstroth         0.1%\n     1  Yanis Wang              0.1%\n     1  Yuest Wang              0.1%\n     1  abrkn                   0.1%\n     1  airportyh               0.1%\n     1  fengmk2                 0.1%\n     1  tgautier@yahoo.com      0.1%\n     1  traleig1                0.1%\n     1  vlad                    0.1%\n     1  yuitest                 0.1%\n     1  Adam Crabtree           0.1%\n     1  Andreas Brekken         0.1%\n     1  Atsuya Takagi           0.1%\n     1  Austin Birch            0.1%\n     1  Bjørge Næss             0.1%\n     1  Brian Moore             0.1%\n     1  Bryan Donovan           0.1%\n     1  Casey Foster            0.1%\n     1  Corey Butler            0.1%\n     1  Dave McKenna            0.1%\n     1  Fedor Indutny           0.1%\n     1  Florian Margaine        0.1%\n     1  Frederico Silva         0.1%\n     1  Fredrik Lindin          0.1%\n     1  Gareth Murphy           0.1%\n     1  Gavin Mogan             0.1%\n     1  Greg Perkins            0.1%\n     1  Harry Brundage          0.1%\n     1  Herman Junge            0.1%\n     1  Ian Young               0.1%\n     1  Ivan                    0.1%\n     1  Jaakko Salonen          0.1%\n     1  Jakub Nešetřil          0.1%\n     1  James Bowes             0.1%\n     1  James Lal               0.1%\n     1  Jason Barry             0.1%\n     1  Javier Aranda           0.1%\n     1  Jeff Kunkle             0.1%\n     1  Jonathan Creamer        0.1%\n     1  Jussi Virtanen          0.1%\n     1  Katie Gengler           0.1%\n     1  Kazuhito Hokamura       0.1%\n     1  Koen Punt               0.1%\n     1  Laszlo Bacsi            0.1%\n     1  László Bácsi            0.1%\n     1  Maciej Małecki          0.1%\n     1  Matt Robenolt           0.1%\n     1  Matt Smith              0.1%\n     1  Matthew Shanley         0.1%\n     1  Michael Schoonmaker     0.1%\n     1  Phil Sung               0.1%\n     1  R56                     0.1%\n```\n\n## Links\n\n  - [Google Group](http://groups.google.com/group/mochajs)\n  - [Wiki](https://github.com/visionmedia/mocha/wiki)\n  - Mocha [Extensions and reporters](https://github.com/visionmedia/mocha/wiki)\n',
+50 silly resolved     readmeFilename: 'Readme.md',
+50 silly resolved     bugs: { url: 'https://github.com/visionmedia/mocha/issues' },
+50 silly resolved     _id: 'mocha@1.10.0',
+50 silly resolved     _from: 'mocha@~1.10.0' } ]
+51 info install mocha@1.10.0 into c:\Users\jdivock\workspace\generator-mo
+52 info installOne mocha@1.10.0
+53 verbose from cache C:\Users\jdivock\AppData\Roaming\npm-cache\mocha\1.10.0\package\package.json
+54 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha unbuild
+55 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\package.json
+56 verbose tar unpack C:\Users\jdivock\AppData\Roaming\npm-cache\mocha\1.10.0\package.tgz
+57 silly lockFile 7533ddf2--generator-mo-node-modules-mocha c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+58 verbose lock c:\Users\jdivock\workspace\generator-mo\node_modules\mocha C:\Users\jdivock\AppData\Roaming\npm-cache\7533ddf2--generator-mo-node-modules-mocha.lock
+59 silly lockFile 3ad1d994-m-cache-mocha-1-10-0-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\mocha\1.10.0\package.tgz
+60 verbose lock C:\Users\jdivock\AppData\Roaming\npm-cache\mocha\1.10.0\package.tgz C:\Users\jdivock\AppData\Roaming\npm-cache\3ad1d994-m-cache-mocha-1-10-0-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+66 silly gunzTarPerm extractEntry LICENSE
+67 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+68 silly gunzTarPerm extractEntry _mocha.js
+69 silly gunzTarPerm modified mode [ '_mocha.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry index.js
+71 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry mocha.js
+73 silly gunzTarPerm modified mode [ 'mocha.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry test.js
+75 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+76 silly gunzTarPerm extractEntry lib/utils.js
+77 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+78 silly gunzTarPerm extractEntry lib/hook.js
+79 silly gunzTarPerm modified mode [ 'lib/hook.js', 438, 420 ]
+80 silly gunzTarPerm extractEntry lib/mocha.js
+81 silly gunzTarPerm modified mode [ 'lib/mocha.js', 438, 420 ]
+82 silly gunzTarPerm extractEntry lib/ms.js
+83 silly gunzTarPerm modified mode [ 'lib/ms.js', 438, 420 ]
+84 silly gunzTarPerm extractEntry lib/context.js
+85 silly gunzTarPerm modified mode [ 'lib/context.js', 438, 420 ]
+86 silly gunzTarPerm extractEntry lib/runnable.js
+87 silly gunzTarPerm modified mode [ 'lib/runnable.js', 438, 420 ]
+88 silly gunzTarPerm extractEntry lib/runner.js
+89 silly gunzTarPerm modified mode [ 'lib/runner.js', 438, 420 ]
+90 silly gunzTarPerm extractEntry lib/suite.js
+91 silly gunzTarPerm modified mode [ 'lib/suite.js', 438, 420 ]
+92 silly gunzTarPerm extractEntry lib/test.js
+93 silly gunzTarPerm modified mode [ 'lib/test.js', 438, 420 ]
+94 silly gunzTarPerm extractEntry lib/interfaces/bdd.js
+95 silly gunzTarPerm modified mode [ 'lib/interfaces/bdd.js', 438, 420 ]
+96 silly gunzTarPerm extractEntry lib/interfaces/exports.js
+97 silly gunzTarPerm modified mode [ 'lib/interfaces/exports.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry lib/interfaces/index.js
+99 silly gunzTarPerm modified mode [ 'lib/interfaces/index.js', 438, 420 ]
+100 silly gunzTarPerm extractEntry lib/interfaces/qunit.js
+101 silly gunzTarPerm modified mode [ 'lib/interfaces/qunit.js', 438, 420 ]
+102 silly gunzTarPerm extractEntry lib/interfaces/tdd.js
+103 silly gunzTarPerm modified mode [ 'lib/interfaces/tdd.js', 438, 420 ]
+104 silly gunzTarPerm extractEntry lib/template.html
+105 silly gunzTarPerm modified mode [ 'lib/template.html', 438, 420 ]
+106 silly gunzTarPerm extractEntry lib/browser/debug.js
+107 silly gunzTarPerm modified mode [ 'lib/browser/debug.js', 438, 420 ]
+108 silly gunzTarPerm extractEntry lib/browser/diff.js
+109 silly gunzTarPerm modified mode [ 'lib/browser/diff.js', 438, 420 ]
+110 silly gunzTarPerm extractEntry lib/browser/events.js
+111 silly gunzTarPerm modified mode [ 'lib/browser/events.js', 438, 420 ]
+112 silly gunzTarPerm extractEntry lib/browser/fs.js
+113 silly gunzTarPerm modified mode [ 'lib/browser/fs.js', 438, 420 ]
+114 silly gunzTarPerm extractEntry lib/browser/path.js
+115 silly gunzTarPerm modified mode [ 'lib/browser/path.js', 438, 420 ]
+116 silly gunzTarPerm extractEntry lib/browser/progress.js
+117 silly gunzTarPerm modified mode [ 'lib/browser/progress.js', 438, 420 ]
+118 silly gunzTarPerm extractEntry lib/browser/tty.js
+119 silly gunzTarPerm modified mode [ 'lib/browser/tty.js', 438, 420 ]
+120 silly gunzTarPerm extractEntry lib/reporters/base.js
+121 silly gunzTarPerm modified mode [ 'lib/reporters/base.js', 438, 420 ]
+122 silly gunzTarPerm extractEntry lib/reporters/json-cov.js
+123 silly gunzTarPerm modified mode [ 'lib/reporters/json-cov.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry lib/reporters/json-stream.js
+125 silly gunzTarPerm modified mode [ 'lib/reporters/json-stream.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry lib/reporters/json.js
+127 silly gunzTarPerm modified mode [ 'lib/reporters/json.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry lib/reporters/index.js
+129 silly gunzTarPerm modified mode [ 'lib/reporters/index.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry lib/reporters/doc.js
+131 silly gunzTarPerm modified mode [ 'lib/reporters/doc.js', 438, 420 ]
+132 silly gunzTarPerm extractEntry lib/reporters/markdown.js
+133 silly gunzTarPerm modified mode [ 'lib/reporters/markdown.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry lib/reporters/min.js
+135 silly gunzTarPerm modified mode [ 'lib/reporters/min.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry lib/reporters/nyan.js
+137 silly gunzTarPerm modified mode [ 'lib/reporters/nyan.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry lib/reporters/progress.js
+139 silly gunzTarPerm modified mode [ 'lib/reporters/progress.js', 438, 420 ]
+140 silly gunzTarPerm extractEntry lib/reporters/html.js
+141 silly gunzTarPerm modified mode [ 'lib/reporters/html.js', 438, 420 ]
+142 silly gunzTarPerm extractEntry lib/reporters/spec.js
+143 silly gunzTarPerm modified mode [ 'lib/reporters/spec.js', 438, 420 ]
+144 silly gunzTarPerm extractEntry lib/reporters/html-cov.js
+145 silly gunzTarPerm modified mode [ 'lib/reporters/html-cov.js', 438, 420 ]
+146 silly gunzTarPerm extractEntry lib/reporters/tap.js
+147 silly gunzTarPerm modified mode [ 'lib/reporters/tap.js', 438, 420 ]
+148 silly gunzTarPerm extractEntry lib/reporters/dot.js
+149 silly gunzTarPerm modified mode [ 'lib/reporters/dot.js', 438, 420 ]
+150 silly gunzTarPerm extractEntry lib/reporters/teamcity.js
+151 silly gunzTarPerm modified mode [ 'lib/reporters/teamcity.js', 438, 420 ]
+152 silly gunzTarPerm extractEntry lib/reporters/landing.js
+153 silly gunzTarPerm modified mode [ 'lib/reporters/landing.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry lib/reporters/xunit.js
+155 silly gunzTarPerm modified mode [ 'lib/reporters/xunit.js', 438, 420 ]
+156 silly gunzTarPerm extractEntry lib/reporters/list.js
+157 silly gunzTarPerm modified mode [ 'lib/reporters/list.js', 438, 420 ]
+158 silly gunzTarPerm extractEntry lib/reporters/templates/coverage.jade
+159 silly gunzTarPerm modified mode [ 'lib/reporters/templates/coverage.jade', 438, 420 ]
+160 silly gunzTarPerm extractEntry lib/reporters/templates/menu.jade
+161 silly gunzTarPerm modified mode [ 'lib/reporters/templates/menu.jade', 438, 420 ]
+162 silly gunzTarPerm extractEntry lib/reporters/templates/script.html
+163 silly gunzTarPerm modified mode [ 'lib/reporters/templates/script.html', 438, 420 ]
+164 silly gunzTarPerm extractEntry lib/reporters/templates/style.html
+165 silly gunzTarPerm modified mode [ 'lib/reporters/templates/style.html', 438, 420 ]
+166 silly gunzTarPerm extractEntry .travis.yml
+167 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+168 silly gunzTarPerm extractEntry History.md
+169 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+170 silly gunzTarPerm extractEntry mocha.css
+171 silly gunzTarPerm modified mode [ 'mocha.css', 438, 420 ]
+172 silly gunzTarPerm extractEntry images/error.png
+173 silly gunzTarPerm modified mode [ 'images/error.png', 438, 420 ]
+174 silly gunzTarPerm extractEntry images/ok.png
+175 silly gunzTarPerm modified mode [ 'images/ok.png', 438, 420 ]
+176 silly gunzTarPerm extractEntry bin/mocha
+177 silly gunzTarPerm modified mode [ 'bin/mocha', 438, 420 ]
+178 silly gunzTarPerm extractEntry bin/_mocha
+179 silly gunzTarPerm modified mode [ 'bin/_mocha', 438, 420 ]
+180 silly gunzTarPerm extractEntry Readme.md
+181 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+182 silly gunzTarPerm extractEntry component.json
+183 silly gunzTarPerm modified mode [ 'component.json', 438, 420 ]
+184 silly gunzTarPerm extractEntry Makefile
+185 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+186 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\package.json
+187 silly lockFile 7533ddf2--generator-mo-node-modules-mocha c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+188 silly lockFile 7533ddf2--generator-mo-node-modules-mocha c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+189 silly lockFile 3ad1d994-m-cache-mocha-1-10-0-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\mocha\1.10.0\package.tgz
+190 silly lockFile 3ad1d994-m-cache-mocha-1-10-0-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\mocha\1.10.0\package.tgz
+191 info preinstall mocha@1.10.0
+192 verbose from cache c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\package.json
+193 verbose readDependencies using package.json deps
+194 verbose from cache c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\package.json
+195 verbose readDependencies using package.json deps
+196 verbose cache add [ 'commander@0.6.1', null ]
+197 verbose cache add name=undefined spec="commander@0.6.1" args=["commander@0.6.1",null]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: 'commander@0.6.1',
+198 verbose parsed url   path: 'commander@0.6.1',
+198 verbose parsed url   href: 'commander@0.6.1' }
+199 verbose cache add name="commander" spec="0.6.1" args=["commander","0.6.1"]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: '0.6.1',
+200 verbose parsed url   path: '0.6.1',
+200 verbose parsed url   href: '0.6.1' }
+201 verbose addNamed [ 'commander', '0.6.1' ]
+202 verbose addNamed [ '0.6.1', '0.6.1' ]
+203 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+204 verbose lock commander@0.6.1 C:\Users\jdivock\AppData\Roaming\npm-cache\fa16a2ce-commander-0-6-1.lock
+205 verbose cache add [ 'growl@1.7.x', null ]
+206 verbose cache add name=undefined spec="growl@1.7.x" args=["growl@1.7.x",null]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: 'growl@1.7.x',
+207 verbose parsed url   path: 'growl@1.7.x',
+207 verbose parsed url   href: 'growl@1.7.x' }
+208 verbose cache add name="growl" spec="1.7.x" args=["growl","1.7.x"]
+209 verbose parsed url { protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: '1.7.x',
+209 verbose parsed url   path: '1.7.x',
+209 verbose parsed url   href: '1.7.x' }
+210 verbose addNamed [ 'growl', '1.7.x' ]
+211 verbose addNamed [ null, '>=1.7.0- <1.8.0-' ]
+212 silly lockFile 9f7e3aca-growl-1-7-x growl@1.7.x
+213 verbose lock growl@1.7.x C:\Users\jdivock\AppData\Roaming\npm-cache\9f7e3aca-growl-1-7-x.lock
+214 verbose cache add [ 'jade@0.26.3', null ]
+215 verbose cache add name=undefined spec="jade@0.26.3" args=["jade@0.26.3",null]
+216 verbose parsed url { protocol: null,
+216 verbose parsed url   slashes: null,
+216 verbose parsed url   auth: null,
+216 verbose parsed url   host: null,
+216 verbose parsed url   port: null,
+216 verbose parsed url   hostname: null,
+216 verbose parsed url   hash: null,
+216 verbose parsed url   search: null,
+216 verbose parsed url   query: null,
+216 verbose parsed url   pathname: 'jade@0.26.3',
+216 verbose parsed url   path: 'jade@0.26.3',
+216 verbose parsed url   href: 'jade@0.26.3' }
+217 verbose cache add name="jade" spec="0.26.3" args=["jade","0.26.3"]
+218 verbose parsed url { protocol: null,
+218 verbose parsed url   slashes: null,
+218 verbose parsed url   auth: null,
+218 verbose parsed url   host: null,
+218 verbose parsed url   port: null,
+218 verbose parsed url   hostname: null,
+218 verbose parsed url   hash: null,
+218 verbose parsed url   search: null,
+218 verbose parsed url   query: null,
+218 verbose parsed url   pathname: '0.26.3',
+218 verbose parsed url   path: '0.26.3',
+218 verbose parsed url   href: '0.26.3' }
+219 verbose addNamed [ 'jade', '0.26.3' ]
+220 verbose addNamed [ '0.26.3', '0.26.3' ]
+221 silly lockFile 7a3d3ea7-jade-0-26-3 jade@0.26.3
+222 verbose lock jade@0.26.3 C:\Users\jdivock\AppData\Roaming\npm-cache\7a3d3ea7-jade-0-26-3.lock
+223 verbose cache add [ 'diff@1.0.2', null ]
+224 verbose cache add name=undefined spec="diff@1.0.2" args=["diff@1.0.2",null]
+225 verbose parsed url { protocol: null,
+225 verbose parsed url   slashes: null,
+225 verbose parsed url   auth: null,
+225 verbose parsed url   host: null,
+225 verbose parsed url   port: null,
+225 verbose parsed url   hostname: null,
+225 verbose parsed url   hash: null,
+225 verbose parsed url   search: null,
+225 verbose parsed url   query: null,
+225 verbose parsed url   pathname: 'diff@1.0.2',
+225 verbose parsed url   path: 'diff@1.0.2',
+225 verbose parsed url   href: 'diff@1.0.2' }
+226 verbose cache add name="diff" spec="1.0.2" args=["diff","1.0.2"]
+227 verbose parsed url { protocol: null,
+227 verbose parsed url   slashes: null,
+227 verbose parsed url   auth: null,
+227 verbose parsed url   host: null,
+227 verbose parsed url   port: null,
+227 verbose parsed url   hostname: null,
+227 verbose parsed url   hash: null,
+227 verbose parsed url   search: null,
+227 verbose parsed url   query: null,
+227 verbose parsed url   pathname: '1.0.2',
+227 verbose parsed url   path: '1.0.2',
+227 verbose parsed url   href: '1.0.2' }
+228 verbose addNamed [ 'diff', '1.0.2' ]
+229 verbose addNamed [ '1.0.2', '1.0.2' ]
+230 silly lockFile 314815e6-diff-1-0-2 diff@1.0.2
+231 verbose lock diff@1.0.2 C:\Users\jdivock\AppData\Roaming\npm-cache\314815e6-diff-1-0-2.lock
+232 verbose cache add [ 'debug@*', null ]
+233 verbose cache add name=undefined spec="debug@*" args=["debug@*",null]
+234 verbose parsed url { protocol: null,
+234 verbose parsed url   slashes: null,
+234 verbose parsed url   auth: null,
+234 verbose parsed url   host: null,
+234 verbose parsed url   port: null,
+234 verbose parsed url   hostname: null,
+234 verbose parsed url   hash: null,
+234 verbose parsed url   search: null,
+234 verbose parsed url   query: null,
+234 verbose parsed url   pathname: 'debug@*',
+234 verbose parsed url   path: 'debug@*',
+234 verbose parsed url   href: 'debug@*' }
+235 verbose cache add name="debug" spec="*" args=["debug","*"]
+236 verbose parsed url { protocol: null,
+236 verbose parsed url   slashes: null,
+236 verbose parsed url   auth: null,
+236 verbose parsed url   host: null,
+236 verbose parsed url   port: null,
+236 verbose parsed url   hostname: null,
+236 verbose parsed url   hash: null,
+236 verbose parsed url   search: null,
+236 verbose parsed url   query: null,
+236 verbose parsed url   pathname: '*',
+236 verbose parsed url   path: '*',
+236 verbose parsed url   href: '*' }
+237 verbose addNamed [ 'debug', '*' ]
+238 verbose addNamed [ null, '' ]
+239 silly lockFile 3ac45eff-debug debug@*
+240 verbose lock debug@* C:\Users\jdivock\AppData\Roaming\npm-cache\3ac45eff-debug.lock
+241 verbose cache add [ 'mkdirp@0.3.3', null ]
+242 verbose cache add name=undefined spec="mkdirp@0.3.3" args=["mkdirp@0.3.3",null]
+243 verbose parsed url { protocol: null,
+243 verbose parsed url   slashes: null,
+243 verbose parsed url   auth: null,
+243 verbose parsed url   host: null,
+243 verbose parsed url   port: null,
+243 verbose parsed url   hostname: null,
+243 verbose parsed url   hash: null,
+243 verbose parsed url   search: null,
+243 verbose parsed url   query: null,
+243 verbose parsed url   pathname: 'mkdirp@0.3.3',
+243 verbose parsed url   path: 'mkdirp@0.3.3',
+243 verbose parsed url   href: 'mkdirp@0.3.3' }
+244 verbose cache add name="mkdirp" spec="0.3.3" args=["mkdirp","0.3.3"]
+245 verbose parsed url { protocol: null,
+245 verbose parsed url   slashes: null,
+245 verbose parsed url   auth: null,
+245 verbose parsed url   host: null,
+245 verbose parsed url   port: null,
+245 verbose parsed url   hostname: null,
+245 verbose parsed url   hash: null,
+245 verbose parsed url   search: null,
+245 verbose parsed url   query: null,
+245 verbose parsed url   pathname: '0.3.3',
+245 verbose parsed url   path: '0.3.3',
+245 verbose parsed url   href: '0.3.3' }
+246 verbose addNamed [ 'mkdirp', '0.3.3' ]
+247 verbose addNamed [ '0.3.3', '0.3.3' ]
+248 silly lockFile 453bb99b-mkdirp-0-3-3 mkdirp@0.3.3
+249 verbose lock mkdirp@0.3.3 C:\Users\jdivock\AppData\Roaming\npm-cache\453bb99b-mkdirp-0-3-3.lock
+250 verbose cache add [ 'ms@0.3.0', null ]
+251 verbose cache add name=undefined spec="ms@0.3.0" args=["ms@0.3.0",null]
+252 verbose parsed url { protocol: null,
+252 verbose parsed url   slashes: null,
+252 verbose parsed url   auth: null,
+252 verbose parsed url   host: null,
+252 verbose parsed url   port: null,
+252 verbose parsed url   hostname: null,
+252 verbose parsed url   hash: null,
+252 verbose parsed url   search: null,
+252 verbose parsed url   query: null,
+252 verbose parsed url   pathname: 'ms@0.3.0',
+252 verbose parsed url   path: 'ms@0.3.0',
+252 verbose parsed url   href: 'ms@0.3.0' }
+253 verbose cache add name="ms" spec="0.3.0" args=["ms","0.3.0"]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: '0.3.0',
+254 verbose parsed url   path: '0.3.0',
+254 verbose parsed url   href: '0.3.0' }
+255 verbose addNamed [ 'ms', '0.3.0' ]
+256 verbose addNamed [ '0.3.0', '0.3.0' ]
+257 silly lockFile e6650cad-ms-0-3-0 ms@0.3.0
+258 verbose lock ms@0.3.0 C:\Users\jdivock\AppData\Roaming\npm-cache\e6650cad-ms-0-3-0.lock
+259 verbose cache add [ 'glob@3.2.1', null ]
+260 verbose cache add name=undefined spec="glob@3.2.1" args=["glob@3.2.1",null]
+261 verbose parsed url { protocol: null,
+261 verbose parsed url   slashes: null,
+261 verbose parsed url   auth: null,
+261 verbose parsed url   host: null,
+261 verbose parsed url   port: null,
+261 verbose parsed url   hostname: null,
+261 verbose parsed url   hash: null,
+261 verbose parsed url   search: null,
+261 verbose parsed url   query: null,
+261 verbose parsed url   pathname: 'glob@3.2.1',
+261 verbose parsed url   path: 'glob@3.2.1',
+261 verbose parsed url   href: 'glob@3.2.1' }
+262 verbose cache add name="glob" spec="3.2.1" args=["glob","3.2.1"]
+263 verbose parsed url { protocol: null,
+263 verbose parsed url   slashes: null,
+263 verbose parsed url   auth: null,
+263 verbose parsed url   host: null,
+263 verbose parsed url   port: null,
+263 verbose parsed url   hostname: null,
+263 verbose parsed url   hash: null,
+263 verbose parsed url   search: null,
+263 verbose parsed url   query: null,
+263 verbose parsed url   pathname: '3.2.1',
+263 verbose parsed url   path: '3.2.1',
+263 verbose parsed url   href: '3.2.1' }
+264 verbose addNamed [ 'glob', '3.2.1' ]
+265 verbose addNamed [ '3.2.1', '3.2.1' ]
+266 silly lockFile 83d909f9-glob-3-2-1 glob@3.2.1
+267 verbose lock glob@3.2.1 C:\Users\jdivock\AppData\Roaming\npm-cache\83d909f9-glob-3-2-1.lock
+268 silly addNameRange { name: 'growl', range: '>=1.7.0- <1.8.0-', hasData: false }
+269 verbose url raw commander/0.6.1
+270 verbose url resolving [ 'https://registry.npmjs.org/', './commander/0.6.1' ]
+271 verbose url resolved https://registry.npmjs.org/commander/0.6.1
+272 info trying registry request attempt 1 at 16:03:39
+273 verbose etag "4VC13F87HF2E76R3ZVQIIIUBC"
+274 http GET https://registry.npmjs.org/commander/0.6.1
+275 verbose url raw growl
+276 verbose url resolving [ 'https://registry.npmjs.org/', './growl' ]
+277 verbose url resolved https://registry.npmjs.org/growl
+278 info trying registry request attempt 1 at 16:03:39
+279 verbose etag "426BCKZZ08RPW4ESDW6O4IF2U"
+280 http GET https://registry.npmjs.org/growl
+281 silly addNameRange { name: 'debug', range: '', hasData: false }
+282 verbose url raw mkdirp/0.3.3
+283 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp/0.3.3' ]
+284 verbose url resolved https://registry.npmjs.org/mkdirp/0.3.3
+285 info trying registry request attempt 1 at 16:03:39
+286 verbose etag "3ULD31ILDU86U22V4KQEZTLOL"
+287 http GET https://registry.npmjs.org/mkdirp/0.3.3
+288 verbose url raw jade/0.26.3
+289 verbose url resolving [ 'https://registry.npmjs.org/', './jade/0.26.3' ]
+290 verbose url resolved https://registry.npmjs.org/jade/0.26.3
+291 info trying registry request attempt 1 at 16:03:39
+292 verbose etag "EBX1MFO7ZYC9O91TD621P262O"
+293 http GET https://registry.npmjs.org/jade/0.26.3
+294 verbose url raw ms/0.3.0
+295 verbose url resolving [ 'https://registry.npmjs.org/', './ms/0.3.0' ]
+296 verbose url resolved https://registry.npmjs.org/ms/0.3.0
+297 info trying registry request attempt 1 at 16:03:39
+298 verbose etag "6G1UY5RTPKW1GM07G00TRK0RD"
+299 http GET https://registry.npmjs.org/ms/0.3.0
+300 verbose url raw glob/3.2.1
+301 verbose url resolving [ 'https://registry.npmjs.org/', './glob/3.2.1' ]
+302 verbose url resolved https://registry.npmjs.org/glob/3.2.1
+303 info trying registry request attempt 1 at 16:03:39
+304 verbose etag "CP4KXBMJQ52LP2H1UVB8OH7W9"
+305 http GET https://registry.npmjs.org/glob/3.2.1
+306 verbose url raw debug
+307 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+308 verbose url resolved https://registry.npmjs.org/debug
+309 info trying registry request attempt 1 at 16:03:39
+310 verbose etag "2NQFBC5T4PM83LSCUT58F4178"
+311 http GET https://registry.npmjs.org/debug
+312 verbose url raw diff/1.0.2
+313 verbose url resolving [ 'https://registry.npmjs.org/', './diff/1.0.2' ]
+314 verbose url resolved https://registry.npmjs.org/diff/1.0.2
+315 info trying registry request attempt 1 at 16:03:39
+316 verbose etag "C49HSO5Q5ILO6PAKM8JWHCFYS"
+317 http GET https://registry.npmjs.org/diff/1.0.2
+318 http 304 https://registry.npmjs.org/commander/0.6.1
+319 silly registry.get cb [ 304,
+319 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+319 silly registry.get     etag: '"4VC13F87HF2E76R3ZVQIIIUBC"',
+319 silly registry.get     date: 'Fri, 14 Jun 2013 20:03:39 GMT',
+319 silly registry.get     'content-length': '0' } ]
+320 verbose etag commander/0.6.1 from cache
+321 http 304 https://registry.npmjs.org/mkdirp/0.3.3
+322 silly registry.get cb [ 304,
+322 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+322 silly registry.get     etag: '"3ULD31ILDU86U22V4KQEZTLOL"',
+322 silly registry.get     date: 'Fri, 14 Jun 2013 20:03:39 GMT',
+322 silly registry.get     'content-length': '0' } ]
+323 verbose etag mkdirp/0.3.3 from cache
+324 verbose read json C:\Users\jdivock\AppData\Roaming\npm-cache\commander\0.6.1\package\package.json
+325 verbose read json C:\Users\jdivock\AppData\Roaming\npm-cache\mkdirp\0.3.3\package\package.json
+326 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+327 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+328 silly lockFile 453bb99b-mkdirp-0-3-3 mkdirp@0.3.3
+329 silly lockFile 453bb99b-mkdirp-0-3-3 mkdirp@0.3.3
+330 http 304 https://registry.npmjs.org/growl
+331 silly registry.get cb [ 304,
+331 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+331 silly registry.get     etag: '"426BCKZZ08RPW4ESDW6O4IF2U"',
+331 silly registry.get     date: 'Fri, 14 Jun 2013 20:03:39 GMT',
+331 silly registry.get     'content-length': '0' } ]
+332 verbose etag growl from cache
+333 http 304 https://registry.npmjs.org/ms/0.3.0
+334 silly registry.get cb [ 304,
+334 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+334 silly registry.get     etag: '"6G1UY5RTPKW1GM07G00TRK0RD"',
+334 silly registry.get     date: 'Fri, 14 Jun 2013 20:03:39 GMT',
+334 silly registry.get     'content-length': '0' } ]
+335 verbose etag ms/0.3.0 from cache
+336 http 304 https://registry.npmjs.org/glob/3.2.1
+337 silly registry.get cb [ 304,
+337 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+337 silly registry.get     etag: '"CP4KXBMJQ52LP2H1UVB8OH7W9"',
+337 silly registry.get     date: 'Fri, 14 Jun 2013 20:03:39 GMT',
+337 silly registry.get     'content-length': '0' } ]
+338 verbose etag glob/3.2.1 from cache
+339 silly addNameRange number 2 { name: 'growl', range: '>=1.7.0- <1.8.0-', hasData: true }
+340 silly addNameRange versions [ 'growl',
+340 silly addNameRange   [ '1.0.1',
+340 silly addNameRange     '1.0.2',
+340 silly addNameRange     '1.1.0',
+340 silly addNameRange     '1.2.0',
+340 silly addNameRange     '1.2.1',
+340 silly addNameRange     '1.3.0',
+340 silly addNameRange     '1.4.0',
+340 silly addNameRange     '1.4.1',
+340 silly addNameRange     '1.5.0',
+340 silly addNameRange     '1.5.1',
+340 silly addNameRange     '1.6.0',
+340 silly addNameRange     '1.6.1',
+340 silly addNameRange     '1.7.0' ] ]
+341 verbose addNamed [ 'growl', '1.7.0' ]
+342 verbose addNamed [ '1.7.0', '1.7.0' ]
+343 silly lockFile 2e65a17a-growl-1-7-0 growl@1.7.0
+344 verbose lock growl@1.7.0 C:\Users\jdivock\AppData\Roaming\npm-cache\2e65a17a-growl-1-7-0.lock
+345 verbose read json C:\Users\jdivock\AppData\Roaming\npm-cache\ms\0.3.0\package\package.json
+346 http 304 https://registry.npmjs.org/debug
+347 silly registry.get cb [ 304,
+347 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+347 silly registry.get     etag: '"2NQFBC5T4PM83LSCUT58F4178"',
+347 silly registry.get     date: 'Fri, 14 Jun 2013 20:03:39 GMT',
+347 silly registry.get     'content-length': '0' } ]
+348 verbose etag debug from cache
+349 http 304 https://registry.npmjs.org/jade/0.26.3
+350 silly registry.get cb [ 304,
+350 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+350 silly registry.get     etag: '"EBX1MFO7ZYC9O91TD621P262O"',
+350 silly registry.get     date: 'Fri, 14 Jun 2013 20:03:39 GMT',
+350 silly registry.get     'content-length': '0' } ]
+351 verbose etag jade/0.26.3 from cache
+352 verbose read json C:\Users\jdivock\AppData\Roaming\npm-cache\glob\3.2.1\package\package.json
+353 verbose read json C:\Users\jdivock\AppData\Roaming\npm-cache\growl\1.7.0\package\package.json
+354 silly addNameRange number 2 { name: 'debug', range: '', hasData: true }
+355 silly addNameRange versions [ 'debug',
+355 silly addNameRange   [ '0.0.1',
+355 silly addNameRange     '0.1.0',
+355 silly addNameRange     '0.2.0',
+355 silly addNameRange     '0.3.0',
+355 silly addNameRange     '0.4.0',
+355 silly addNameRange     '0.4.1',
+355 silly addNameRange     '0.5.0',
+355 silly addNameRange     '0.6.0',
+355 silly addNameRange     '0.7.0',
+355 silly addNameRange     '0.7.1',
+355 silly addNameRange     '0.7.2' ] ]
+356 verbose addNamed [ 'debug', '0.7.2' ]
+357 verbose addNamed [ '0.7.2', '0.7.2' ]
+358 silly lockFile 432e5064-debug-0-7-2 debug@0.7.2
+359 verbose lock debug@0.7.2 C:\Users\jdivock\AppData\Roaming\npm-cache\432e5064-debug-0-7-2.lock
+360 verbose read json C:\Users\jdivock\AppData\Roaming\npm-cache\jade\0.26.3\package\package.json
+361 warn package.json ms@0.3.0 No repository field.
+362 silly lockFile e6650cad-ms-0-3-0 ms@0.3.0
+363 silly lockFile e6650cad-ms-0-3-0 ms@0.3.0
+364 silly lockFile 83d909f9-glob-3-2-1 glob@3.2.1
+365 silly lockFile 83d909f9-glob-3-2-1 glob@3.2.1
+366 verbose read json C:\Users\jdivock\AppData\Roaming\npm-cache\debug\0.7.2\package\package.json
+367 warn package.json growl@1.7.0 No repository field.
+368 silly lockFile 2e65a17a-growl-1-7-0 growl@1.7.0
+369 silly lockFile 2e65a17a-growl-1-7-0 growl@1.7.0
+370 silly lockFile 9f7e3aca-growl-1-7-x growl@1.7.x
+371 silly lockFile 9f7e3aca-growl-1-7-x growl@1.7.x
+372 warn package.json jade@0.26.3 No readme data.
+373 silly lockFile 7a3d3ea7-jade-0-26-3 jade@0.26.3
+374 silly lockFile 7a3d3ea7-jade-0-26-3 jade@0.26.3
+375 silly lockFile 432e5064-debug-0-7-2 debug@0.7.2
+376 silly lockFile 432e5064-debug-0-7-2 debug@0.7.2
+377 silly lockFile 3ac45eff-debug debug@*
+378 silly lockFile 3ac45eff-debug debug@*
+379 http 304 https://registry.npmjs.org/diff/1.0.2
+380 silly registry.get cb [ 304,
+380 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+380 silly registry.get     etag: '"C49HSO5Q5ILO6PAKM8JWHCFYS"',
+380 silly registry.get     date: 'Fri, 14 Jun 2013 20:03:39 GMT',
+380 silly registry.get     'content-length': '0' } ]
+381 verbose etag diff/1.0.2 from cache
+382 verbose read json C:\Users\jdivock\AppData\Roaming\npm-cache\diff\1.0.2\package\package.json
+383 silly lockFile 314815e6-diff-1-0-2 diff@1.0.2
+384 silly lockFile 314815e6-diff-1-0-2 diff@1.0.2
+385 silly resolved [ { name: 'commander',
+385 silly resolved     version: '0.6.1',
+385 silly resolved     description: 'the complete solution for node.js command-line programs',
+385 silly resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+385 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+385 silly resolved     repository:
+385 silly resolved      { type: 'git',
+385 silly resolved        url: 'https://github.com/visionmedia/commander.js.git' },
+385 silly resolved     dependencies: {},
+385 silly resolved     devDependencies: { should: '>= 0.0.1' },
+385 silly resolved     scripts: { test: 'make test' },
+385 silly resolved     main: 'index',
+385 silly resolved     engines: { node: '>= 0.4.x' },
+385 silly resolved     readme: '# Commander.js\n\n  The complete solution for [node.js](http://nodejs.org) command-line interfaces, inspired by Ruby\'s [commander](https://github.com/visionmedia/commander).\n\n [![Build Status](https://secure.travis-ci.org/visionmedia/commander.js.png)](http://travis-ci.org/visionmedia/commander.js)\n\n## Installation\n\n    $ npm install commander\n\n## Option parsing\n\n Options with commander are defined with the `.option()` method, also serving as documentation for the options. The example below parses args and options from `process.argv`, leaving remaining args as the `program.args` array which were not consumed by options.\n\n```js\n#!/usr/bin/env node\n\n/**\n * Module dependencies.\n */\n\nvar program = require(\'commander\');\n\nprogram\n  .version(\'0.0.1\')\n  .option(\'-p, --peppers\', \'Add peppers\')\n  .option(\'-P, --pineapple\', \'Add pineapple\')\n  .option(\'-b, --bbq\', \'Add bbq sauce\')\n  .option(\'-c, --cheese [type]\', \'Add the specified type of cheese [marble]\', \'marble\')\n  .parse(process.argv);\n\nconsole.log(\'you ordered a pizza with:\');\nif (program.peppers) console.log(\'  - peppers\');\nif (program.pineapple) console.log(\'  - pineappe\');\nif (program.bbq) console.log(\'  - bbq\');\nconsole.log(\'  - %s cheese\', program.cheese);\n```\n\n Short flags may be passed as a single arg, for example `-abc` is equivalent to `-a -b -c`. Multi-word options such as "--template-engine" are camel-cased, becoming `program.templateEngine` etc.\n\n## Automated --help\n\n The help information is auto-generated based on the information commander already knows about your program, so the following `--help` info is for free:\n\n```  \n $ ./examples/pizza --help\n\n   Usage: pizza [options]\n\n   Options:\n\n     -V, --version        output the version number\n     -p, --peppers        Add peppers\n     -P, --pineapple      Add pineappe\n     -b, --bbq            Add bbq sauce\n     -c, --cheese <type>  Add the specified type of cheese [marble]\n     -h, --help           output usage information\n\n```\n\n## Coercion\n\n```js\nfunction range(val) {\n  return val.split(\'..\').map(Number);\n}\n\nfunction list(val) {\n  return val.split(\',\');\n}\n\nprogram\n  .version(\'0.0.1\')\n  .usage(\'[options] <file ...>\')\n  .option(\'-i, --integer <n>\', \'An integer argument\', parseInt)\n  .option(\'-f, --float <n>\', \'A float argument\', parseFloat)\n  .option(\'-r, --range <a>..<b>\', \'A range\', range)\n  .option(\'-l, --list <items>\', \'A list\', list)\n  .option(\'-o, --optional [value]\', \'An optional value\')\n  .parse(process.argv);\n\nconsole.log(\' int: %j\', program.integer);\nconsole.log(\' float: %j\', program.float);\nconsole.log(\' optional: %j\', program.optional);\nprogram.range = program.range || [];\nconsole.log(\' range: %j..%j\', program.range[0], program.range[1]);\nconsole.log(\' list: %j\', program.list);\nconsole.log(\' args: %j\', program.args);\n```\n\n## Custom help\n\n You can display arbitrary `-h, --help` information\n by listening for "--help". Commander will automatically\n exit once you are done so that the remainder of your program\n does not execute causing undesired behaviours, for example\n in the following executable "stuff" will not output when\n `--help` is used.\n\n```js\n#!/usr/bin/env node\n\n/**\n * Module dependencies.\n */\n\nvar program = require(\'../\');\n\nfunction list(val) {\n  return val.split(\',\').map(Number);\n}\n\nprogram\n  .version(\'0.0.1\')\n  .option(\'-f, --foo\', \'enable some foo\')\n  .option(\'-b, --bar\', \'enable some bar\')\n  .option(\'-B, --baz\', \'enable some baz\');\n\n// must be before .parse() since\n// node\'s emit() is immediate\n\nprogram.on(\'--help\', function(){\n  console.log(\'  Examples:\');\n  console.log(\'\');\n  console.log(\'    $ custom-help --help\');\n  console.log(\'    $ custom-help -h\');\n  console.log(\'\');\n});\n\nprogram.parse(process.argv);\n\nconsole.log(\'stuff\');\n```\n\nyielding the following help output:\n\n```\n\nUsage: custom-help [options]\n\nOptions:\n\n  -h, --help     output usage information\n  -V, --version  output the version number\n  -f, --foo      enable some foo\n  -b, --bar      enable some bar\n  -B, --baz      enable some baz\n\nExamples:\n\n  $ custom-help --help\n  $ custom-help -h\n\n```\n\n## .prompt(msg, fn)\n\n Single-line prompt:\n\n```js\nprogram.prompt(\'name: \', function(name){\n  console.log(\'hi %s\', name);\n});\n```\n\n Multi-line prompt:\n\n```js\nprogram.prompt(\'description:\', function(name){\n  console.log(\'hi %s\', name);\n});\n```\n\n Coercion:\n\n```js\nprogram.prompt(\'Age: \', Number, function(age){\n  console.log(\'age: %j\', age);\n});\n```\n\n```js\nprogram.prompt(\'Birthdate: \', Date, function(date){\n  console.log(\'date: %s\', date);\n});\n```\n\n## .password(msg[, mask], fn)\n\nPrompt for password without echoing:\n\n```js\nprogram.password(\'Password: \', function(pass){\n  console.log(\'got "%s"\', pass);\n  process.stdin.destroy();\n});\n```\n\nPrompt for password with mask char "*":\n\n```js\nprogram.password(\'Password: \', \'*\', function(pass){\n  console.log(\'got "%s"\', pass);\n  process.stdin.destroy();\n});\n```\n\n## .confirm(msg, fn)\n\n Confirm with the given `msg`:\n\n```js\nprogram.confirm(\'continue? \', function(ok){\n  console.log(\' got %j\', ok);\n});\n```\n\n## .choose(list, fn)\n\n Let the user choose from a `list`:\n\n```js\nvar list = [\'tobi\', \'loki\', \'jane\', \'manny\', \'luna\'];\n\nconsole.log(\'Choose the coolest pet:\');\nprogram.choose(list, function(i){\n  console.log(\'you chose %d "%s"\', i, list[i]);\n});\n```\n\n## Links\n\n - [API documentation](http://visionmedia.github.com/commander.js/)\n - [ascii tables](https://github.com/LearnBoost/cli-table)\n - [progress bars](https://github.com/visionmedia/node-progress)\n - [more progress bars](https://github.com/substack/node-multimeter)\n - [examples](https://github.com/visionmedia/commander.js/tree/master/examples)\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+385 silly resolved     readmeFilename: 'Readme.md',
+385 silly resolved     bugs: { url: 'https://github.com/visionmedia/commander.js/issues' },
+385 silly resolved     _id: 'commander@0.6.1',
+385 silly resolved     _from: 'commander@0.6.1' },
+385 silly resolved   { name: 'mkdirp',
+385 silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+385 silly resolved     version: '0.3.3',
+385 silly resolved     author:
+385 silly resolved      { name: 'James Halliday',
+385 silly resolved        email: 'mail@substack.net',
+385 silly resolved        url: 'http://substack.net' },
+385 silly resolved     main: './index',
+385 silly resolved     keywords: [ 'mkdir', 'directory' ],
+385 silly resolved     repository:
+385 silly resolved      { type: 'git',
+385 silly resolved        url: 'http://github.com/substack/node-mkdirp.git' },
+385 silly resolved     scripts: { test: 'tap test/*.js' },
+385 silly resolved     devDependencies: { tap: '~0.2.4' },
+385 silly resolved     license: 'MIT/X11',
+385 silly resolved     engines: { node: '*' },
+385 silly resolved     readme: 'mkdirp\n======\n\nLike `mkdir -p`, but in node.js!\n\n[![build status](https://secure.travis-ci.org/substack/node-mkdirp.png)](http://travis-ci.org/substack/node-mkdirp)\n\nexample\n=======\n\npow.js\n------\n    var mkdirp = require(\'mkdirp\');\n    \n    mkdirp(\'/tmp/foo/bar/baz\', function (err) {\n        if (err) console.error(err)\n        else console.log(\'pow!\')\n    });\n\nOutput\n    pow!\n\nAnd now /tmp/foo/bar/baz exists, huzzah!\n\nmethods\n=======\n\nvar mkdirp = require(\'mkdirp\');\n\nmkdirp(dir, mode, cb)\n---------------------\n\nCreate a new directory and any necessary subdirectories at `dir` with octal\npermission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\n`cb(err, made)` fires with the error or the first directory `made`\nthat had to be created, if any.\n\nmkdirp.sync(dir, mode)\n----------------------\n\nSynchronously create a new directory and any necessary subdirectories at `dir`\nwith octal permission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\nReturns the first directory that had to be created, if any.\n\ninstall\n=======\n\nWith [npm](http://npmjs.org) do:\n\n    npm install mkdirp\n\nlicense\n=======\n\nMIT/X11\n',
+385 silly resolved     readmeFilename: 'README.markdown',
+385 silly resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+385 silly resolved     _id: 'mkdirp@0.3.3',
+385 silly resolved     _from: 'mkdirp@0.3.3' },
+385 silly resolved   { name: 'ms',
+385 silly resolved     version: '0.3.0',
+385 silly resolved     description: 'Tiny ms conversion utility',
+385 silly resolved     main: './ms',
+385 silly resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+385 silly resolved     readme: '# ms.js: miliseconds conversion utility\n\n```js\nms(\'1d\')      // 86400000\nms(\'10h\')     // 36000000\nms(\'2h\')      // 7200000\nms(\'1m\')      // 60000\nms(\'5s\')      // 5000\nms(\'100\')     // 100\nms(100)       // 100\n```\n\n```js\nms(60000)             // "1 minute"\nms(2 * 60000)         // "2 minutes"\nms(ms(\'10 hours\'))    // "10 hours"\n```\n\n- Node/Browser compatible. Published as `ms` in NPM.\n- If a number is supplied to `ms`, it returns it immediately.\n- If a string that contains the number is supplied, it returns it as\na number (e.g: it returns `100` for `\'100\'`).\n- If you pass a string with a number and a valid unit, the number of\nequivalent ms is returned.\n',
+385 silly resolved     readmeFilename: 'README.md',
+385 silly resolved     _id: 'ms@0.3.0',
+385 silly resolved     _from: 'ms@0.3.0' },
+385 silly resolved   { author:
+385 silly resolved      { name: 'Isaac Z. Schlueter',
+385 silly resolved        email: 'i@izs.me',
+385 silly resolved        url: 'http://blog.izs.me/' },
+385 silly resolved     name: 'glob',
+385 silly resolved     description: 'a little globber',
+385 silly resolved     version: '3.2.1',
+385 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-glob.git' },
+385 silly resolved     main: 'glob.js',
+385 silly resolved     engines: { node: '*' },
+385 silly resolved     dependencies: { minimatch: '~0.2.11', 'graceful-fs': '~1.2.0', inherits: '1' },
+385 silly resolved     devDependencies: { tap: '~0.4.0', mkdirp: '0', rimraf: '1' },
+385 silly resolved     scripts: { test: 'tap test/*.js' },
+385 silly resolved     license: 'BSD',
+385 silly resolved     readme: '# Glob\n\nMatch files using the patterns the shell uses, like stars and stuff.\n\nThis is a glob implementation in JavaScript.  It uses the `minimatch`\nlibrary to do its matching.\n\n## Attention: node-glob users!\n\nThe API has changed dramatically between 2.x and 3.x. This library is\nnow 100% JavaScript, and the integer flags have been replaced with an\noptions object.\n\nAlso, there\'s an event emitter class, proper tests, and all the other\nthings you\'ve come to expect from node modules.\n\nAnd best of all, no compilation!\n\n## Usage\n\n```javascript\nvar glob = require("glob")\n\n// options is optional\nglob("**/*.js", options, function (er, files) {\n  // files is an array of filenames.\n  // If the `nonull` option is set, and nothing\n  // was found, then files is ["**/*.js"]\n  // er is an error object or null.\n})\n```\n\n## Features\n\nPlease see the [minimatch\ndocumentation](https://github.com/isaacs/minimatch) for more details.\n\nSupports these glob features:\n\n* Brace Expansion\n* Extended glob matching\n* "Globstar" `**` matching\n\nSee:\n\n* `man sh`\n* `man bash`\n* `man 3 fnmatch`\n* `man 5 gitignore`\n* [minimatch documentation](https://github.com/isaacs/minimatch)\n\n## glob(pattern, [options], cb)\n\n* `pattern` {String} Pattern to be matched\n* `options` {Object}\n* `cb` {Function}\n  * `err` {Error | null}\n  * `matches` {Array<String>} filenames found matching the pattern\n\nPerform an asynchronous glob search.\n\n## glob.sync(pattern, [options])\n\n* `pattern` {String} Pattern to be matched\n* `options` {Object}\n* return: {Array<String>} filenames found matching the pattern\n\nPerform a synchronous glob search.\n\n## Class: glob.Glob\n\nCreate a Glob object by instanting the `glob.Glob` class.\n\n```javascript\nvar Glob = require("glob").Glob\nvar mg = new Glob(pattern, options, cb)\n```\n\nIt\'s an EventEmitter, and starts walking the filesystem to find matches\nimmediately.\n\n### new glob.Glob(pattern, [options], [cb])\n\n* `pattern` {String} pattern to search for\n* `options` {Object}\n* `cb` {Function} Called when an error occurs, or matches are found\n  * `err` {Error | null}\n  * `matches` {Array<String>} filenames found matching the pattern\n\nNote that if the `sync` flag is set in the options, then matches will\nbe immediately available on the `g.found` member.\n\n### Properties\n\n* `minimatch` The minimatch object that the glob uses.\n* `options` The options object passed in.\n* `error` The error encountered.  When an error is encountered, the\n  glob object is in an undefined state, and should be discarded.\n* `aborted` Boolean which is set to true when calling `abort()`.  There\n  is no way at this time to continue a glob search after aborting, but\n  you can re-use the statCache to avoid having to duplicate syscalls.\n* `statCache` Collection of all the stat results the glob search\n  performed.\n* `cache` Convenience object.  Each field has the following possible\n  values:\n  * `false` - Path does not exist\n  * `true` - Path exists\n  * `1` - Path exists, and is not a directory\n  * `2` - Path exists, and is a directory\n  * `[file, entries, ...]` - Path exists, is a directory, and the\n    array value is the results of `fs.readdir`\n\n### Events\n\n* `end` When the matching is finished, this is emitted with all the\n  matches found.  If the `nonull` option is set, and no match was found,\n  then the `matches` list contains the original pattern.  The matches\n  are sorted, unless the `nosort` flag is set.\n* `match` Every time a match is found, this is emitted with the matched.\n* `error` Emitted when an unexpected error is encountered, or whenever\n  any fs error occurs if `options.strict` is set.\n* `abort` When `abort()` is called, this event is raised.\n\n### Methods\n\n* `abort` Stop the search.\n\n### Options\n\nAll the options that can be passed to Minimatch can also be passed to\nGlob to change pattern matching behavior.  Also, some have been added,\nor have glob-specific ramifications.\n\nAll options are false by default, unless otherwise noted.\n\nAll options are added to the glob object, as well.\n\n* `cwd` The current working directory in which to search.  Defaults\n  to `process.cwd()`.\n* `root` The place where patterns starting with `/` will be mounted\n  onto.  Defaults to `path.resolve(options.cwd, "/")` (`/` on Unix\n  systems, and `C:\\` or some such on Windows.)\n* `dot` Include `.dot` files in normal matches and `globstar` matches.\n  Note that an explicit dot in a portion of the pattern will always\n  match dot files.\n* `nomount` By default, a pattern starting with a forward-slash will be\n  "mounted" onto the root setting, so that a valid filesystem path is\n  returned.  Set this flag to disable that behavior.\n* `mark` Add a `/` character to directory matches.  Note that this\n  requires additional stat calls.\n* `nosort` Don\'t sort the results.\n* `stat` Set to true to stat *all* results.  This reduces performance\n  somewhat, and is completely unnecessary, unless `readdir` is presumed\n  to be an untrustworthy indicator of file existence.  It will cause\n  ELOOP to be triggered one level sooner in the case of cyclical\n  symbolic links.\n* `silent` When an unusual error is encountered\n  when attempting to read a directory, a warning will be printed to\n  stderr.  Set the `silent` option to true to suppress these warnings.\n* `strict` When an unusual error is encountered\n  when attempting to read a directory, the process will just continue on\n  in search of other matches.  Set the `strict` option to raise an error\n  in these cases.\n* `cache` See `cache` property above.  Pass in a previously generated\n  cache object to save some fs calls.\n* `statCache` A cache of results of filesystem information, to prevent\n  unnecessary stat calls.  While it should not normally be necessary to\n  set this, you may pass the statCache from one glob() call to the\n  options object of another, if you know that the filesystem will not\n  change between calls.  (See "Race Conditions" below.)\n* `sync` Perform a synchronous glob search.\n* `nounique` In some cases, brace-expanded patterns can result in the\n  same file showing up multiple times in the result set.  By default,\n  this implementation prevents duplicates in the result set.\n  Set this flag to disable that behavior.\n* `nonull` Set to never return an empty set, instead returning a set\n  containing the pattern itself.  This is the default in glob(3).\n* `nocase` Perform a case-insensitive match.  Note that case-insensitive\n  filesystems will sometimes result in glob returning results that are\n  case-insensitively matched anyway, since readdir and stat will not\n  raise an error.\n* `debug` Set to enable debug logging in minimatch and glob.\n* `globDebug` Set to enable debug logging in glob, but not minimatch.\n\n## Comparisons to other fnmatch/glob implementations\n\nWhile strict compliance with the existing standards is a worthwhile\ngoal, some discrepancies exist between node-glob and other\nimplementations, and are intentional.\n\nIf the pattern starts with a `!` character, then it is negated.  Set the\n`nonegate` flag to suppress this behavior, and treat leading `!`\ncharacters normally.  This is perhaps relevant if you wish to start the\npattern with a negative extglob pattern like `!(a|B)`.  Multiple `!`\ncharacters at the start of a pattern will negate the pattern multiple\ntimes.\n\nIf a pattern starts with `#`, then it is treated as a comment, and\nwill not match anything.  Use `\\#` to match a literal `#` at the\nstart of a line, or set the `nocomment` flag to suppress this behavior.\n\nThe double-star character `**` is supported by default, unless the\n`noglobstar` flag is set.  This is supported in the manner of bsdglob\nand bash 4.1, where `**` only has special significance if it is the only\nthing in a path part.  That is, `a/**/b` will match `a/x/y/b`, but\n`a/**b` will not.\n\nIf an escaped pattern has no matches, and the `nonull` flag is set,\nthen glob returns the pattern as-provided, rather than\ninterpreting the character escapes.  For example,\n`glob.match([], "\\\\*a\\\\?")` will return `"\\\\*a\\\\?"` rather than\n`"*a?"`.  This is akin to setting the `nullglob` option in bash, except\nthat it does not resolve escaped pattern characters.\n\nIf brace expansion is not disabled, then it is performed before any\nother interpretation of the glob pattern.  Thus, a pattern like\n`+(a|{b),c)}`, which would not be valid in bash or zsh, is expanded\n**first** into the set of `+(a|b)` and `+(a|c)`, and those patterns are\nchecked for validity.  Since those two are valid, matching proceeds.\n\n## Windows\n\n**Please only use forward-slashes in glob expressions.**\n\nThough windows uses either `/` or `\\` as its path separator, only `/`\ncharacters are used by this glob implementation.  You must use\nforward-slashes **only** in glob expressions.  Back-slashes will always\nbe interpreted as escape characters, not path separators.\n\nResults from absolute patterns such as `/foo/*` are mounted onto the\nroot setting using `path.join`.  On windows, this will by default result\nin `/foo/*` matching `C:\\foo\\bar.txt`.\n\n## Race Conditions\n\nGlob searching, by its very nature, is susceptible to race conditions,\nsince it relies on directory walking and such.\n\nAs a result, it is possible that a file that exists when glob looks for\nit may have been deleted or modified by the time it returns the result.\n\nAs part of its internal implementation, this program caches all stat\nand readdir calls that it makes, in order to cut down on system\noverhead.  However, this also makes it even more susceptible to races,\nespecially if the cache or statCache objects are reused between glob\ncalls.\n\nUsers are thus advised not to use a glob result as a guarantee of\nfilesystem state in the face of rapid changes.  For the vast majority\nof operations, this is never a problem.\n',
+385 silly resolved     readmeFilename: 'README.md',
+385 silly resolved     bugs: { url: 'https://github.com/isaacs/node-glob/issues' },
+385 silly resolved     _id: 'glob@3.2.1',
+385 silly resolved     _from: 'glob@3.2.1' },
+385 silly resolved   { name: 'growl',
+385 silly resolved     version: '1.7.0',
+385 silly resolved     description: 'Growl unobtrusive notifications',
+385 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+385 silly resolved     main: './lib/growl.js',
+385 silly resolved     readme: '# Growl for nodejs\n\nGrowl support for Nodejs. This is essentially a port of my [Ruby Growl Library](http://github.com/visionmedia/growl). Ubuntu/Linux support added thanks to [@niftylettuce](http://github.com/niftylettuce). \n\n## Installation\n\n### Install \n\n### Mac OS X (Darwin):\n\n  Install [growlnotify(1)](http://growl.info/extras.php#growlnotify). On OS X 10.8, Notification Center is supported using [terminal-notifier](https://github.com/alloy/terminal-notifier). To install:\n  \n      $ sudo gem install terminal-notifier\n      \n  Install [npm](http://npmjs.org/) and run:\n  \n      $ npm install growl\n\n### Ubuntu (Linux):\n\n  Install `notify-send` through the [libnotify-bin](http://packages.ubuntu.com/libnotify-bin) package:\n\n      $ sudo apt-get install libnotify-bin\n\n  Install [npm](http://npmjs.org/) and run:\n  \n      $ npm install growl\n\n### Windows:\n\n  Download and install [Growl for Windows](http://www.growlforwindows.com/gfw/default.aspx)\n\n  Download [growlnotify](http://www.growlforwindows.com/gfw/help/growlnotify.aspx) - **IMPORTANT :** Unpack growlnotify to a folder that is present in your path!\n\n  Install [npm](http://npmjs.org/) and run:\n  \n      $ npm install growl\n\n## Examples\n\nCallback functions are optional\n\n    var growl = require(\'growl\')\n    growl(\'You have mail!\')\n    growl(\'5 new messages\', { sticky: true })\n    growl(\'5 new emails\', { title: \'Email Client\', image: \'Safari\', sticky: true })\n    growl(\'Message with title\', { title: \'Title\'})\n    growl(\'Set priority\', { priority: 2 })\n    growl(\'Show Safari icon\', { image: \'Safari\' })\n    growl(\'Show icon\', { image: \'path/to/icon.icns\' })\n    growl(\'Show image\', { image: \'path/to/my.image.png\' })\n    growl(\'Show png filesystem icon\', { image: \'png\' })\n    growl(\'Show pdf filesystem icon\', { image: \'article.pdf\' })\n    growl(\'Show pdf filesystem icon\', { image: \'article.pdf\' }, function(err){\n      // ... notified\n    })\n\n## Options\n\n  - title\n    - notification title\n  - name\n    - application name\n  - priority\n    - priority for the notification (default is 0)\n  - sticky\n    - weither or not the notification should remainin until closed\n  - image\n    - Auto-detects the context:\n      - path to an icon sets --iconpath\n      - path to an image sets --image\n      - capitalized word sets --appIcon\n      - filename uses extname as --icon\n      - otherwise treated as --icon\n      \n## License \n\n(The MIT License)\n\nCopyright (c) 2009 TJ Holowaychuk <tj@vision-media.ca>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+385 silly resolved     readmeFilename: 'Readme.md',
+385 silly resolved     _id: 'growl@1.7.0',
+385 silly resolved     _from: 'growl@1.7.x' },
+385 silly resolved   { name: 'jade',
+385 silly resolved     description: 'Jade template engine',
+385 silly resolved     version: '0.26.3',
+385 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+385 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/jade' },
+385 silly resolved     main: './index.js',
+385 silly resolved     bin: { jade: './bin/jade' },
+385 silly resolved     man: [ './jade.1' ],
+385 silly resolved     dependencies: { commander: '0.6.1', mkdirp: '0.3.0' },
+385 silly resolved     devDependencies:
+385 silly resolved      { mocha: '*',
+385 silly resolved        markdown: '*',
+385 silly resolved        stylus: '*',
+385 silly resolved        uubench: '*',
+385 silly resolved        should: '*',
+385 silly resolved        less: '*',
+385 silly resolved        'uglify-js': '*' },
+385 silly resolved     component: { scripts: [Object] },
+385 silly resolved     scripts: { prepublish: 'npm prune' },
+385 silly resolved     bugs: { url: 'https://github.com/visionmedia/jade/issues' },
+385 silly resolved     readme: 'ERROR: No README data found!',
+385 silly resolved     _id: 'jade@0.26.3',
+385 silly resolved     _from: 'jade@0.26.3' },
+385 silly resolved   { name: 'debug',
+385 silly resolved     version: '0.7.2',
+385 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+385 silly resolved     description: 'small debugging utility',
+385 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+385 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+385 silly resolved     dependencies: {},
+385 silly resolved     devDependencies: { mocha: '*' },
+385 silly resolved     main: 'lib/debug.js',
+385 silly resolved     browserify: 'debug.js',
+385 silly resolved     engines: { node: '*' },
+385 silly resolved     component: { scripts: [Object] },
+385 silly resolved     readme: '\n# debug\n\n  tiny node.js debugging utility modelled after node core\'s debugging technique.\n\n## Installation\n\n```\n$ npm install debug\n```\n\n## Usage\n\n With `debug` you simply invoke the exported function to generate your debug function, passing it a name which will determine if a noop function is returned, or a decorated `console.error`, so all of the `console` format string goodies you\'re used to work fine. A unique color is selected per-function for visibility.\n \nExample _app.js_:\n\n```js\nvar debug = require(\'debug\')(\'http\')\n  , http = require(\'http\')\n  , name = \'My App\';\n\n// fake app\n\ndebug(\'booting %s\', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + \' \' + req.url);\n  res.end(\'hello\\n\');\n}).listen(3000, function(){\n  debug(\'listening\');\n});\n\n// fake worker of some kind\n\nrequire(\'./worker\');\n```\n\nExample _worker.js_:\n\n```js\nvar debug = require(\'debug\')(\'worker\');\n\nsetInterval(function(){\n  debug(\'doing some work\');\n}, 1000);\n```\n\n The __DEBUG__ environment variable is then used to enable these based on space or comma-delimited names. Here are some examples:\n\n  ![debug http and worker](http://f.cl.ly/items/18471z1H402O24072r1J/Screenshot.png)\n\n  ![debug worker](http://f.cl.ly/items/1X413v1a3M0d3C2c1E0i/Screenshot.png)\n\n## Millisecond diff\n\n  When actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the "+NNNms" will show you how much time was spent between calls.\n\n  ![](http://f.cl.ly/items/2i3h1d3t121M2Z1A3Q0N/Screenshot.png)\n\n  When stdout is not a TTY, `Date#toUTCString()` is used, making it more useful for logging the debug information as shown below:\n  \n  ![](http://f.cl.ly/items/112H3i0e0o0P0a2Q2r11/Screenshot.png)\n\n## Conventions\n\n If you\'re using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use ":" to separate features. For example "bodyParser" from Connect would then be "connect:bodyParser". \n\n## Wildcards\n\n  The "*" character may be used as a wildcard. Suppose for example your library has debuggers named "connect:bodyParser", "connect:compress", "connect:session", instead of listing all three with `DEBUG=connect:bodyParser,connect.compress,connect:session`, you may simply do `DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\n  You can also exclude specific debuggers by prefixing them with a "-" character.  For example, `DEBUG=* -connect:*` would include all debuggers except those starting with "connect:".\n\n## Browser support\n\n Debug works in the browser as well, currently persisted by `localStorage`. For example if you have `worker:a` and `worker:b` as shown below, and wish to debug both type `debug.enable(\'worker:*\')` in the console and refresh the page, this will remain until you disable with `debug.disable()`. \n\n```js\na = debug(\'worker:a\');\nb = debug(\'worker:b\');\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1000);\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1200);\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+385 silly resolved     readmeFilename: 'Readme.md',
+385 silly resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+385 silly resolved     _id: 'debug@0.7.2',
+385 silly resolved     _from: 'debug@*' },
+385 silly resolved   { name: 'diff',
+385 silly resolved     version: '1.0.2',
+385 silly resolved     description: 'A javascript text diff implementation.',
+385 silly resolved     keywords: [ 'diff', 'javascript' ],
+385 silly resolved     maintainers: [ [Object] ],
+385 silly resolved     bugs:
+385 silly resolved      { url: 'http://github.com/kpdecker/jsdiff/issues',
+385 silly resolved        email: 'kpdecker@gmail.com' },
+385 silly resolved     licenses: [ [Object] ],
+385 silly resolved     repository: { type: 'git', url: 'git://github.com/kpdecker/jsdiff.git' },
+385 silly resolved     engines: { node: '>=0.3.1' },
+385 silly resolved     main: './diff',
+385 silly resolved     scripts: { test: 'expresso test/*' },
+385 silly resolved     dependencies: {},
+385 silly resolved     devDependencies: {},
+385 silly resolved     readme: '# jsdiff\n\nA javascript text differencing implementation.\n\nBased on the algorithm proposed in\n["An O(ND) Difference Algorithm and its Variations" (Myers, 1986)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.4.6927).\n\n## Installation\n\n    npm install diff\n\nor\n\n    git clone git://github.com/kpdecker/jsdiff.git\n\n## API\n\n* JsDiff.diffChars(oldStr, newStr)\n    Diffs two blocks of text, comparing character by character.\n\n    Returns a list of change objects (See below).\n\n* JsDiff.diffWords(oldStr, newStr)\n    Diffs two blocks of text, comparing word by word.\n\n    Returns a list of change objects (See below).\n\n* JsDiff.diffLines(oldStr, newStr)\n    Diffs two blocks of text, comparing line by line.\n\n    Returns a list of change objects (See below).\n\n* JsDiff.diffCss(oldStr, newStr)\n    Diffs two blocks of text, comparing CSS tokens.\n\n    Returns a list of change objects (See below).\n\n* JsDiff.createPatch(fileName, oldStr, newStr, oldHeader, newHeader)\n    Creates a unified diff patch.\n\n    Parameters:\n    * fileName : String to be output in the filename sections of the patch\n    * oldStr : Original string value\n    * newStr : New string value\n    * oldHeader : Additional information to include in the old file header\n    * newHeader : Additional information to include in thew new file header\n\n* convertChangesToXML(changes)\n    Converts a list of changes to a serialized XML format\n\n### Change Objects\nMany of the methods above return change objects. These objects are consist of the following fields:\n\n* value: Text content\n* added: True if the value was inserted into the new string\n* removed: True of the value was removed from the old string\n\nNote that some cases may omit a particular flag field. Comparison on the flag fields should always be done in a truthy or falsy manner.\n\n## [Example](http://kpdecker.github.com/jsdiff)\n\n## License\n\nSoftware License Agreement (BSD License)\n\nCopyright (c) 2009-2011, Kevin Decker kpdecker@gmail.com\n\nAll rights reserved.\n\nRedistribution and use of this software in source and binary forms, with or without modification,\nare permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above\n  copyright notice, this list of conditions and the\n  following disclaimer.\n\n* Redistributions in binary form must reproduce the above\n  copyright notice, this list of conditions and the\n  following disclaimer in the documentation and/or other\n  materials provided with the distribution.\n\n* Neither the name of Kevin Decker nor the names of its\n  contributors may be used to endorse or promote products\n  derived from this software without specific prior\n  written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR\nCONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER\nIN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT\nOF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n',
+385 silly resolved     readmeFilename: 'README.md',
+385 silly resolved     _id: 'diff@1.0.2',
+385 silly resolved     _from: 'diff@1.0.2' } ]
+386 info install commander@0.6.1 into c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+387 info install mkdirp@0.3.3 into c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+388 info install ms@0.3.0 into c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+389 info install glob@3.2.1 into c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+390 info install growl@1.7.0 into c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+391 info install jade@0.26.3 into c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+392 info install debug@0.7.2 into c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+393 info install diff@1.0.2 into c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+394 info installOne commander@0.6.1
+395 info installOne mkdirp@0.3.3
+396 info installOne ms@0.3.0
+397 info installOne glob@3.2.1
+398 info installOne growl@1.7.0
+399 info installOne jade@0.26.3
+400 info installOne debug@0.7.2
+401 info installOne diff@1.0.2
+402 verbose from cache C:\Users\jdivock\AppData\Roaming\npm-cache\commander\0.6.1\package\package.json
+403 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\commander unbuild
+404 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\commander\package.json
+405 verbose from cache C:\Users\jdivock\AppData\Roaming\npm-cache\mkdirp\0.3.3\package\package.json
+406 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\mkdirp unbuild
+407 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\mkdirp\package.json
+408 verbose from cache C:\Users\jdivock\AppData\Roaming\npm-cache\ms\0.3.0\package\package.json
+409 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\ms unbuild
+410 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\ms\package.json
+411 verbose from cache C:\Users\jdivock\AppData\Roaming\npm-cache\glob\3.2.1\package\package.json
+412 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\glob unbuild
+413 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\glob\package.json
+414 verbose from cache C:\Users\jdivock\AppData\Roaming\npm-cache\growl\1.7.0\package\package.json
+415 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\growl unbuild
+416 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\growl\package.json
+417 verbose from cache C:\Users\jdivock\AppData\Roaming\npm-cache\jade\0.26.3\package\package.json
+418 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade unbuild
+419 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade\package.json
+420 verbose from cache C:\Users\jdivock\AppData\Roaming\npm-cache\debug\0.7.2\package\package.json
+421 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\debug unbuild
+422 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\debug\package.json
+423 verbose from cache C:\Users\jdivock\AppData\Roaming\npm-cache\diff\1.0.2\package\package.json
+424 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\diff unbuild
+425 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\diff\package.json
+426 verbose tar unpack C:\Users\jdivock\AppData\Roaming\npm-cache\commander\0.6.1\package.tgz
+427 silly lockFile 1f45c0e8-les-mocha-node-modules-commander c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\commander
+428 verbose lock c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\commander C:\Users\jdivock\AppData\Roaming\npm-cache\1f45c0e8-les-mocha-node-modules-commander.lock
+429 silly lockFile dee7c00d-ache-commander-0-6-1-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\commander\0.6.1\package.tgz
+430 verbose lock C:\Users\jdivock\AppData\Roaming\npm-cache\commander\0.6.1\package.tgz C:\Users\jdivock\AppData\Roaming\npm-cache\dee7c00d-ache-commander-0-6-1-package-tgz.lock
+431 verbose tar unpack C:\Users\jdivock\AppData\Roaming\npm-cache\mkdirp\0.3.3\package.tgz
+432 silly lockFile d3265cb9-odules-mocha-node-modules-mkdirp c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\mkdirp
+433 verbose lock c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\mkdirp C:\Users\jdivock\AppData\Roaming\npm-cache\d3265cb9-odules-mocha-node-modules-mkdirp.lock
+434 silly lockFile 08339897-m-cache-mkdirp-0-3-3-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\mkdirp\0.3.3\package.tgz
+435 verbose lock C:\Users\jdivock\AppData\Roaming\npm-cache\mkdirp\0.3.3\package.tgz C:\Users\jdivock\AppData\Roaming\npm-cache\08339897-m-cache-mkdirp-0-3-3-package-tgz.lock
+436 verbose tar unpack C:\Users\jdivock\AppData\Roaming\npm-cache\ms\0.3.0\package.tgz
+437 silly lockFile 1d5b7393-de-modules-mocha-node-modules-ms c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\ms
+438 verbose lock c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\ms C:\Users\jdivock\AppData\Roaming\npm-cache\1d5b7393-de-modules-mocha-node-modules-ms.lock
+439 silly lockFile c798002e-g-npm-cache-ms-0-3-0-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\ms\0.3.0\package.tgz
+440 verbose lock C:\Users\jdivock\AppData\Roaming\npm-cache\ms\0.3.0\package.tgz C:\Users\jdivock\AppData\Roaming\npm-cache\c798002e-g-npm-cache-ms-0-3-0-package-tgz.lock
+441 verbose tar unpack C:\Users\jdivock\AppData\Roaming\npm-cache\glob\3.2.1\package.tgz
+442 silly lockFile 92773fbb--modules-mocha-node-modules-glob c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\glob
+443 verbose lock c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\glob C:\Users\jdivock\AppData\Roaming\npm-cache\92773fbb--modules-mocha-node-modules-glob.lock
+444 silly lockFile af0fc66c-npm-cache-glob-3-2-1-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\glob\3.2.1\package.tgz
+445 verbose lock C:\Users\jdivock\AppData\Roaming\npm-cache\glob\3.2.1\package.tgz C:\Users\jdivock\AppData\Roaming\npm-cache\af0fc66c-npm-cache-glob-3-2-1-package-tgz.lock
+446 verbose tar unpack C:\Users\jdivock\AppData\Roaming\npm-cache\growl\1.7.0\package.tgz
+447 silly lockFile b3f9d681-modules-mocha-node-modules-growl c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\growl
+448 verbose lock c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\growl C:\Users\jdivock\AppData\Roaming\npm-cache\b3f9d681-modules-mocha-node-modules-growl.lock
+449 silly lockFile ad7de843-pm-cache-growl-1-7-0-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\growl\1.7.0\package.tgz
+450 verbose lock C:\Users\jdivock\AppData\Roaming\npm-cache\growl\1.7.0\package.tgz C:\Users\jdivock\AppData\Roaming\npm-cache\ad7de843-pm-cache-growl-1-7-0-package-tgz.lock
+451 verbose tar unpack C:\Users\jdivock\AppData\Roaming\npm-cache\jade\0.26.3\package.tgz
+452 silly lockFile 390c29bf--modules-mocha-node-modules-jade c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade
+453 verbose lock c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade C:\Users\jdivock\AppData\Roaming\npm-cache\390c29bf--modules-mocha-node-modules-jade.lock
+454 silly lockFile b15033eb-pm-cache-jade-0-26-3-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\jade\0.26.3\package.tgz
+455 verbose lock C:\Users\jdivock\AppData\Roaming\npm-cache\jade\0.26.3\package.tgz C:\Users\jdivock\AppData\Roaming\npm-cache\b15033eb-pm-cache-jade-0-26-3-package-tgz.lock
+456 verbose tar unpack C:\Users\jdivock\AppData\Roaming\npm-cache\debug\0.7.2\package.tgz
+457 silly lockFile d7f96c07-modules-mocha-node-modules-debug c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\debug
+458 verbose lock c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\debug C:\Users\jdivock\AppData\Roaming\npm-cache\d7f96c07-modules-mocha-node-modules-debug.lock
+459 silly lockFile 9ae8fbea-pm-cache-debug-0-7-2-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\debug\0.7.2\package.tgz
+460 verbose lock C:\Users\jdivock\AppData\Roaming\npm-cache\debug\0.7.2\package.tgz C:\Users\jdivock\AppData\Roaming\npm-cache\9ae8fbea-pm-cache-debug-0-7-2-package-tgz.lock
+461 verbose tar unpack C:\Users\jdivock\AppData\Roaming\npm-cache\diff\1.0.2\package.tgz
+462 silly lockFile 9aea7ef5--modules-mocha-node-modules-diff c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\diff
+463 verbose lock c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\diff C:\Users\jdivock\AppData\Roaming\npm-cache\9aea7ef5--modules-mocha-node-modules-diff.lock
+464 silly lockFile 794992c1-npm-cache-diff-1-0-2-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\diff\1.0.2\package.tgz
+465 verbose lock C:\Users\jdivock\AppData\Roaming\npm-cache\diff\1.0.2\package.tgz C:\Users\jdivock\AppData\Roaming\npm-cache\794992c1-npm-cache-diff-1-0-2-package-tgz.lock
+466 silly gunzTarPerm modes [ '755', '644' ]
+467 silly gunzTarPerm modes [ '755', '644' ]
+468 silly gunzTarPerm modes [ '755', '644' ]
+469 silly gunzTarPerm modes [ '755', '644' ]
+470 silly gunzTarPerm modes [ '755', '644' ]
+471 silly gunzTarPerm modes [ '755', '644' ]
+472 silly gunzTarPerm extractEntry package.json
+473 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+474 silly gunzTarPerm extractEntry package.json
+475 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+476 silly gunzTarPerm extractEntry .npmignore
+477 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+478 silly gunzTarPerm extractEntry LICENSE
+479 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+480 silly gunzTarPerm extractEntry test.js
+481 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+482 silly gunzTarPerm extractEntry History.md
+483 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+484 silly gunzTarPerm extractEntry package.json
+485 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+486 silly gunzTarPerm extractEntry package.json
+487 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+488 silly gunzTarPerm extractEntry package.json
+489 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+490 silly gunzTarPerm extractEntry package.json
+491 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+492 silly gunzTarPerm extractEntry .npmignore
+493 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+494 silly gunzTarPerm extractEntry index.js
+495 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+496 silly gunzTarPerm extractEntry README.md
+497 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+498 silly gunzTarPerm extractEntry LICENSE
+499 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+500 silly gunzTarPerm extractEntry .npmignore
+501 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+502 silly gunzTarPerm extractEntry debug.js
+503 silly gunzTarPerm modified mode [ 'debug.js', 438, 420 ]
+504 silly gunzTarPerm extractEntry .npmignore
+505 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+506 silly gunzTarPerm extractEntry LICENSE
+507 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+508 silly gunzTarPerm extractEntry lib/growl.js
+509 silly gunzTarPerm modified mode [ 'lib/growl.js', 438, 420 ]
+510 silly gunzTarPerm extractEntry Readme.md
+511 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+512 silly gunzTarPerm extractEntry index.js
+513 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+514 silly gunzTarPerm extractEntry jade.js
+515 silly gunzTarPerm modified mode [ 'jade.js', 438, 420 ]
+516 silly gunzTarPerm extractEntry .travis.yml
+517 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+518 silly gunzTarPerm extractEntry History.md
+519 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+520 silly gunzTarPerm extractEntry diff.js
+521 silly gunzTarPerm modified mode [ 'diff.js', 438, 420 ]
+522 silly gunzTarPerm extractEntry index.html
+523 silly gunzTarPerm modified mode [ 'index.html', 438, 420 ]
+524 silly gunzTarPerm extractEntry style.css
+525 silly gunzTarPerm modified mode [ 'style.css', 438, 420 ]
+526 silly gunzTarPerm extractEntry test/diffTest.js
+527 silly gunzTarPerm modified mode [ 'test/diffTest.js', 438, 420 ]
+528 silly gunzTarPerm extractEntry index.js
+529 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+530 silly gunzTarPerm extractEntry .gitignore.orig
+531 silly gunzTarPerm modified mode [ '.gitignore.orig', 438, 420 ]
+532 silly gunzTarPerm extractEntry index.js
+533 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+534 silly gunzTarPerm extractEntry component.json
+535 silly gunzTarPerm modified mode [ 'component.json', 438, 420 ]
+536 silly gunzTarPerm extractEntry jade.min.js
+537 silly gunzTarPerm modified mode [ 'jade.min.js', 438, 420 ]
+538 silly gunzTarPerm extractEntry lib/commander.js
+539 silly gunzTarPerm modified mode [ 'lib/commander.js', 438, 420 ]
+540 silly gunzTarPerm extractEntry Makefile
+541 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+542 silly gunzTarPerm extractEntry Readme.md
+543 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+544 silly gunzTarPerm extractEntry .gitignore.rej
+545 silly gunzTarPerm modified mode [ '.gitignore.rej', 438, 420 ]
+546 silly gunzTarPerm extractEntry .travis.yml
+547 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+548 silly gunzTarPerm extractEntry example/app.js
+549 silly gunzTarPerm modified mode [ 'example/app.js', 438, 420 ]
+550 silly gunzTarPerm extractEntry example/wildcards.js
+551 silly gunzTarPerm modified mode [ 'example/wildcards.js', 438, 420 ]
+552 silly gunzTarPerm extractEntry runtime.js
+553 silly gunzTarPerm modified mode [ 'runtime.js', 438, 420 ]
+554 error tar.unpack untar error C:\Users\jdivock\AppData\Roaming\npm-cache\jade\0.26.3\package.tgz
+555 silly lockFile 390c29bf--modules-mocha-node-modules-jade c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade
+556 silly lockFile 390c29bf--modules-mocha-node-modules-jade c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade
+557 silly lockFile b15033eb-pm-cache-jade-0-26-3-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\jade\0.26.3\package.tgz
+558 silly lockFile b15033eb-pm-cache-jade-0-26-3-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\jade\0.26.3\package.tgz
+559 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade unbuild
+560 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade\package.json
+561 silly gunzTarPerm extractEntry examples/pow.js
+562 silly gunzTarPerm modified mode [ 'examples/pow.js', 438, 420 ]
+563 silly gunzTarPerm extractEntry examples/pow.js.orig
+564 silly gunzTarPerm modified mode [ 'examples/pow.js.orig', 438, 420 ]
+565 silly gunzTarPerm extractEntry example/worker.js
+566 silly gunzTarPerm modified mode [ 'example/worker.js', 438, 420 ]
+567 silly gunzTarPerm extractEntry example/browser.html
+568 silly gunzTarPerm modified mode [ 'example/browser.html', 438, 420 ]
+569 info preuninstall jade@0.26.3
+570 info uninstall jade@0.26.3
+571 silly gunzTarPerm extractEntry History.md
+572 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+573 silly gunzTarPerm extractEntry lib/debug.js
+574 silly gunzTarPerm modified mode [ 'lib/debug.js', 438, 420 ]
+575 verbose false,c:\Users\jdivock\workspace\generator-mo\node_modules,c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules unbuild jade@0.26.3
+576 verbose c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\.bin,[object Object] binRoot
+577 info postuninstall jade@0.26.3
+578 silly gunzTarPerm extractEntry examples/pow.js.rej
+579 silly gunzTarPerm modified mode [ 'examples/pow.js.rej', 438, 420 ]
+580 silly gunzTarPerm extractEntry README.markdown
+581 silly gunzTarPerm modified mode [ 'README.markdown', 438, 420 ]
+582 silly gunzTarPerm extractEntry Readme.md
+583 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+584 error error rolling back Error: ENOTEMPTY, rmdir 'c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade'
+584 error error rolling back  jade@0.26.3 { [Error: ENOTEMPTY, rmdir 'c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade']
+584 error error rolling back   errno: 53,
+584 error error rolling back   code: 'ENOTEMPTY',
+584 error error rolling back   path: 'c:\\Users\\jdivock\\workspace\\generator-mo\\node_modules\\mocha\\node_modules\\jade' }
+585 verbose about to build c:\Users\jdivock\workspace\generator-mo\node_modules\mocha
+586 info c:\Users\jdivock\workspace\generator-mo\node_modules\mocha unbuild
+587 verbose from cache c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\package.json
+588 info preuninstall mocha@1.10.0
+589 silly gunzTarPerm extractEntry test/chmod.js
+590 silly gunzTarPerm modified mode [ 'test/chmod.js', 438, 420 ]
+591 info uninstall mocha@1.10.0
+592 verbose true,c:\Users\jdivock\workspace\generator-mo\node_modules,c:\Users\jdivock\workspace\generator-mo\node_modules unbuild mocha@1.10.0
+593 verbose c:\Users\jdivock\workspace\generator-mo\node_modules\.bin,[object Object] binRoot
+594 verbose read json c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\growl\package.json
+595 info postuninstall mocha@1.10.0
+596 silly gunzTarPerm extractEntry test/perm.js
+597 silly gunzTarPerm modified mode [ 'test/perm.js', 438, 420 ]
+598 silly gunzTarPerm extractEntry test/perm_sync.js
+599 silly gunzTarPerm modified mode [ 'test/perm_sync.js', 438, 420 ]
+600 silly lockFile b3f9d681-modules-mocha-node-modules-growl c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\growl
+601 silly lockFile b3f9d681-modules-mocha-node-modules-growl c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\growl
+602 silly gunzTarPerm extractEntry test/race.js
+603 silly gunzTarPerm modified mode [ 'test/race.js', 438, 420 ]
+604 silly gunzTarPerm extractEntry test/mkdirp.js
+605 silly gunzTarPerm modified mode [ 'test/mkdirp.js', 438, 420 ]
+606 silly lockFile ad7de843-pm-cache-growl-1-7-0-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\growl\1.7.0\package.tgz
+607 silly lockFile ad7de843-pm-cache-growl-1-7-0-package-tgz C:\Users\jdivock\AppData\Roaming\npm-cache\growl\1.7.0\package.tgz
+608 error error rolling back Error: EPERM, rmdir 'c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade\jade.js'
+608 error error rolling back  mocha@1.10.0 { [Error: EPERM, rmdir 'c:\Users\jdivock\workspace\generator-mo\node_modules\mocha\node_modules\jade\jade.js']
+608 error error rolling back   errno: 50,
+608 error error rolling back   code: 'EPERM',
+608 error error rolling back   path: 'c:\\Users\\jdivock\\workspace\\generator-mo\\node_modules\\mocha\\node_modules\\jade\\jade.js' }
+609 error Error: unexpected eof
+609 error     at decorate (c:\nodejs\node_modules\npm\node_modules\fstream\lib\abstract.js:67:36)
+609 error     at Extract.Abstract.error (c:\nodejs\node_modules\npm\node_modules\fstream\lib\abstract.js:61:12)
+609 error     at Extract._streamEnd (c:\nodejs\node_modules\npm\node_modules\tar\lib\extract.js:75:22)
+609 error     at BlockStream.<anonymous> (c:\nodejs\node_modules\npm\node_modules\tar\lib\parse.js:50:8)
+609 error     at BlockStream.EventEmitter.emit (events.js:92:17)
+609 error     at BlockStream._emitChunk (c:\nodejs\node_modules\npm\node_modules\block-stream\block-stream.js:203:10)
+609 error     at BlockStream.resume (c:\nodejs\node_modules\npm\node_modules\block-stream\block-stream.js:58:15)
+609 error     at Extract.Reader.resume (c:\nodejs\node_modules\npm\node_modules\fstream\lib\reader.js:252:34)
+609 error     at Entry.<anonymous> (c:\nodejs\node_modules\npm\node_modules\tar\lib\parse.js:256:8)
+609 error     at Entry.EventEmitter.emit (events.js:92:17)
+610 error If you need help, you may report this log at:
+610 error     <http://github.com/isaacs/npm/issues>
+610 error or email it to:
+610 error     <npm-@googlegroups.com>
+611 error System Windows_NT 6.1.7600
+612 error command "c:\\nodejs\\node.exe" "c:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "link"
+613 error cwd c:\Users\jdivock\workspace\generator-mo
+614 error node -v v0.10.9
+615 error npm -v 1.2.24
+616 error fstream_class Extract
+617 error fstream_stack Extract._streamEnd (c:\nodejs\node_modules\npm\node_modules\tar\lib\extract.js:75:22)
+617 error fstream_stack BlockStream.<anonymous> (c:\nodejs\node_modules\npm\node_modules\tar\lib\parse.js:50:8)
+617 error fstream_stack BlockStream.EventEmitter.emit (events.js:92:17)
+617 error fstream_stack BlockStream._emitChunk (c:\nodejs\node_modules\npm\node_modules\block-stream\block-stream.js:203:10)
+617 error fstream_stack BlockStream.resume (c:\nodejs\node_modules\npm\node_modules\block-stream\block-stream.js:58:15)
+617 error fstream_stack Extract.Reader.resume (c:\nodejs\node_modules\npm\node_modules\fstream\lib\reader.js:252:34)
+617 error fstream_stack Entry.<anonymous> (c:\nodejs\node_modules\npm\node_modules\tar\lib\parse.js:256:8)
+617 error fstream_stack Entry.EventEmitter.emit (events.js:92:17)
+618 verbose exit [ 1, true ]

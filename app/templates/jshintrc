@@ -1,0 +1,23 @@
+{
+    "globals": {
+        "console": true,
+        "define": true,
+        "Handlebars": true,
+        "require": true
+    },
+
+    "es5" : false,
+    "browser" : true,
+    "debug": true,
+    "curly": false,
+    "eqeqeq": true,
+    "evil": true,
+    "forin": false,
+    "immed": true,
+    "newcap": true,
+    "onevar": false,
+    "plusplus": false,
+    "regexp": false,
+    "undef": true,
+    "sub": true
+}
